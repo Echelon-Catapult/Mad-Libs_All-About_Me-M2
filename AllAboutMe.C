@@ -35,7 +35,7 @@ int main()
     scanf("%s", favInstrument);
     printf("Lastly, what is your favorite place to go? One word pls\n");
     scanf("%s", favPlace);
-    printf("Hi! My name is %s. I am %d years old. I am in the grade level %d. I have %d brothers, and %d sisters. I also have %d pets. My favorite school subject is %s. My favorite coding language is %s. My favorite instrument is the %s. Lastly, my favorite place to be is %s.\n", firstName, age, numGrade, numBrothers, numSisters, numPets, favSubject, favCodingLanguage, favInstrument, favPlace);
+    printf("Hi! My name is %s. I am %d years old. I am in the grade level %d. I have %d brothers, and %d sisters. I also have %d pets. My favorite school subject is %s. My favorite coding language is %s. My favorite instrument is the %s. Lastly, my favorite place to be is %s. That is all about me!!!\n", firstName, age, numGrade, numBrothers, numSisters, numPets, favSubject, favCodingLanguage, favInstrument, favPlace);
 
     return 0;
 }
