@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+   int number1, number2, quotient;
+
+   printf("Enter two integers:\n");
+   scanf("%d%d", &number1, &number2);
+
+   //operations
+   quotient = number1/number2;
+
+   printf("%d/%d = %d", number1, number2, quotient);
+
+return 0;
+}
